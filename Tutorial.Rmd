@@ -1,8 +1,7 @@
 ---
 title: "Fit Damped Linear Oscillator model with OpenMx"
 author: "[Mar J.F Ollero](mailto:marjfollero@gmail.com)- Autonomous University of Madrid, Spain"
-output:
-  rmdformats::downcute
+
 ---
 This page contains an illustrative example on how to fit the **Damped Linear Oscillator model** to a single individual's negative affect measures. This example was conceived as a supplementary material to (reference). Please access (link) for more details. 
 
