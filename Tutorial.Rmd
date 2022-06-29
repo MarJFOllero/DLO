@@ -27,8 +27,12 @@ library ("OpenMx")
 
 
 # Data
+The data used in this tutorial is available for download
+```{r, echo=FALSE}
+xfun::embed_file("DLO_Tutorial_Individual.txt", text = "here.")
+```  
 
-The data used in this tutorial is available for download [here]("DLO_Tutorial_Individual.txt"). Now, to load the data and see the first lines of it: 
+Now, to load the data and see the first lines of it: 
 ```{r}
 data <- read.table ("DLO_Tutorial_Individual.txt")
 head (data)
