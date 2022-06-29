@@ -4,7 +4,6 @@ author: "[Mar J.F Ollero](mailto:marjfollero@gmail.com)- Autonomous University o
 output: 
   rmdformats::downcute:
     self_contained: true
-    thumbnails: true
     lightbox: true
     gallery: false
     highlight: tango
