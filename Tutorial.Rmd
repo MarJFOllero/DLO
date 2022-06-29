@@ -1,6 +1,13 @@
 ---
 title: "Fit Damped Linear Oscillator model with OpenMx"
 author: "[Mar J.F Ollero](mailto:marjfollero@gmail.com)- Autonomous University of Madrid, Spain"
+output: 
+  rmdformats::downcute:
+    self_contained: true
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
 
 ---
 This page contains an illustrative example on how to fit the **Damped Linear Oscillator model** to a single individual's negative affect measures. Note that this example was conceived as a supplementary material to (reference). Please access (link) for more details. 
@@ -22,10 +29,10 @@ library ("OpenMx")
 
 # Data
 
-The data used in this tutorial is available for download [here]('DLO_Tutorial_Individual.Rdata'). Now, to load the data and see the first lines of it: 
+The data used in this tutorial is available for download [here]("DLO_Tutorial_Individual.txt"). Now, to load the data and see the first lines of it: 
 ```{r}
-load ('DLO_Tutorial_Individual.Rdata')
-head (simdata)
+data <- read.table ("DLO_Tutorial_Individual.txt")
+head (data)
 ```
 
 The data set has 3 variables: 
@@ -90,7 +97,7 @@ dlo <- mxModel("DampedLinearOscillator",
                                                      'u', t='time'),
                mxFitFunctionML())
 
-dlod <- mxModel(dlo, mxData(simdata, 'raw'))
+dlod <- mxModel(dlo, mxData(data, 'raw'))
 dlo_out <- mxRun(dlod)
 ```
 
