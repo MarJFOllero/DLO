@@ -27,9 +27,8 @@ library ("OpenMx")
 
 
 # Data
-The data used in this tutorial is available for download
 ```{r, echo=FALSE}
-xfun::embed_file("DLO_Tutorial_Individual.txt", text = "here.")
+xfun::embed_file("DLO_Tutorial_Individual.txt", text = "The data used in this tutorial is available for download here")
 ```  
 
 Now, to load the data and see the first lines of it: 
