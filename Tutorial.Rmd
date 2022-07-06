@@ -123,4 +123,9 @@ And to access the results:
 summary(dlo_out)
 ```
 
+# References
+
+Boker, S. M., Neale, M. C., Maes, H. H., Wilde, M. J., Spiegel, M., Brick, T. R., Estabrook, R., Bates, T. C., Mehta, P. D., von Oertzen, T., Gore, R. J., Hunter, M. D., & Hackett, D. C. (2018). OpenMx User Guide. https://openmx.ssri.psu.edu/documentation
+
+Hunter, M. D. (2018). State Space Modeling in an Open Source, Modular, Structural Equation Modeling Environment. Structural Equation Modeling: A Multidisciplinary Journal, 25(2), 307-324. https://doi.org/10.1080/10705511.2017.1369354
 
