@@ -9,7 +9,7 @@ output:
     highlight: tango
 
 ---
-This page contains an illustrative example on how to fit the **Damped Linear Oscillator model** to a single individual's negative affect measures. Note that this example was conceived as a supplementary material to (reference). Please access (link) for more details. 
+This page contains an illustrative example on how to fit the **Damped Linear Oscillator model** to a single individual's negative affect measures. Note that this example was conceived as a supplementary material.  
 
 # Previous steps 
 
