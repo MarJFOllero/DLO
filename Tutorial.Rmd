@@ -9,7 +9,7 @@ output:
     highlight: tango
 
 ---
-This page contains an illustrative example on how to fit the **Damped Linear Oscillator model** to a single individual's negative affect measures. Note that this example was conceived as a supplementary material of F. Ollero, M. J., Estrada, E., Hunter, M. D., & F. Cáncer, P. (2023). Characterizing Affect Dynamics With a Damped Linear Oscillator Model: Theoretical Considerations and Recommendations for Individual-Level Applications. Psychological Methods. https://doi.org/10.1037/met0000615.
+This page contains an illustrative example on how to fit the **Damped Linear Oscillator model** to a single individual's negative affect measures. Note that this example was conceived as a supplementary material of Ollero, M. J. F., Estrada, E., Hunter, M. D., & Cáncer, P. F. (2023). Characterizing Affect Dynamics With a Damped Linear Oscillator Model: Theoretical Considerations and Recommendations for Individual-Level Applications. Psychological Methods. https://doi.org/10.1037/met0000615.
 
 # Previous steps 
 
